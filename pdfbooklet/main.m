@@ -14,6 +14,8 @@
  limitations under the License.
  */
 
+#define VERSION_STRING "1.0.0"
+
 #import <Foundation/Foundation.h>
 
 void error(NSString* string) {
@@ -22,6 +24,7 @@ void error(NSString* string) {
 }
 void usage() {
 	puts("Usage: pdfbooklet <inputfile> <outputfile>");
+	puts("PDF Booklet Version " VERSION_STRING);
 	exit(1);
 }
 
