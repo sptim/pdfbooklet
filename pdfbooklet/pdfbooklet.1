@@ -1,0 +1,37 @@
+.TH pdfbooklet 1 "December 2016" "PDF Booklet"
+.SH NAME
+.B pdfbooklet
+\- Reorder pages in a PDF for booklet printing
+.SH SYNOPSIS
+.B pdfbooklet
+.IR inputfile
+.IR outputfile
+.SH DESCRIPTION
+.B pdfbooklet
+copies pages from a pdf file to a new pdf file in an order appropriate for booklet printing.
+If the number of pages in the input file is not a multiple of 4, empty pages get inserted.
+The inserted pages have the same size as the first page.
+.PP
+.nf
+Order of pages in the output:
+.RS
+\- last page
+\- first page
+\- second page
+\- second-last page
+\- third-last page
+\- third page
+\- fourth page
+\- ...
+.RE
+.ff
+.SH AUTHOR
+.nf
+Tim Mecking <tim@mecking.net>
+.B https://github.com/sptim/pdfbooklet
+.ff
+.SH COPYRIGHT AND LICENSE
+Copyright (C) 2016 by Tim Mecking.
+.B pdfbooklet
+is licensed with the Apache licence 2.0. See
+.B https://www.apache.org/licenses/LICENSE-2.0
