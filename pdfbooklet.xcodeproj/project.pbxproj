@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		7B0C162A1E002844009D8D85 /* pdfbooklet.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = pdfbooklet.1; sourceTree = "<group>"; };
 		7B0C162B1E00494F009D8D85 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = pdfbooklet/LICENSE; sourceTree = "<group>"; };
+		7B0C162C1E00536B009D8D85 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = pdfbooklet/README.md; sourceTree = "<group>"; };
 		7B431D491DF651AD00228135 /* pdfbooklet */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = pdfbooklet; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B431D4C1DF651AD00228135 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -43,6 +44,7 @@
 		7B431D401DF651AD00228135 = {
 			isa = PBXGroup;
 			children = (
+				7B0C162C1E00536B009D8D85 /* README.md */,
 				7B0C162B1E00494F009D8D85 /* LICENSE */,
 				7B431D4B1DF651AD00228135 /* pdfbooklet */,
 				7B431D4A1DF651AD00228135 /* Products */,
@@ -155,6 +157,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_LOCATION = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -202,6 +205,8 @@
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
