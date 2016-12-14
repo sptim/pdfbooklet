@@ -31,10 +31,9 @@ OS X 10.9 (Mavericks), OS X 10.10 (Yosemite), OS X 10.11 (El Capitan), or macOS 
 
 ## Install via [Homebrew](http://brew.sh)
 
-Once pdfbooklet becomes available in homebrew, you can simply install it by executing:
+You can simply install it by executing:
 
-		brew install pdfbooklet
-
+		brew install sptim/formulae/pdfbooklet
 
 ## Build and Install from Source
 
