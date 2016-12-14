@@ -1,1 +1,18 @@
+*~
+
+### Xcode ###
+
+*.xcuserdatad
+
+### AppCode ###
+
+.idea/
+
+### OS X ###
+
+.DS_Store
+.Spotlight-V100
+
+### Other ###
+
 /build
