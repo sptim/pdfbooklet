@@ -101,8 +101,8 @@ int main(int argc, const char * argv[]) {
 
 		NSString* message=[NSString stringWithFormat:@"Now print \"%@\" with layout settings:\n"
 						   "- Pages per Sheet: 2\n"
-						   "- Layout Direction: first option (2)\n"
-						   "- Two Sided: Short-Edge Binding\n",inputFile];
+						   "- Layout direction: 1st (looks like a Z) or 3rd option (looks like mirrored N)\n"
+						   "- Two Sided: Short-Edge Binding\n",outputFile];
 		puts([message UTF8String]);
 	}
     return 0;
