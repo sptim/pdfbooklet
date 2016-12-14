@@ -12,8 +12,8 @@ copies pages from a pdf file to a new pdf file in an order appropriate for bookl
 If the number of pages in the input file is not a multiple of 4, empty pages get inserted.
 The inserted pages have the same size as the first page.
 .PP
-.nf
 Order of pages in the output:
+.nf
 .RS
 \- last page
 \- first page
@@ -23,6 +23,18 @@ Order of pages in the output:
 \- third page
 \- fourth page
 \- ...
+.RE
+.ff
+.PP
+Print layout settings to use for the newly created PDF:
+.nf
+.RS
+\- Pages per Sheet: 2
+\- Layout direction: 1st option (looks like a Z)
+.RS
+or 3rd option (looks like mirrored N)
+.RE
+\- Two-Sided: Short-Edge binding
 .RE
 .ff
 .SH AUTHOR
