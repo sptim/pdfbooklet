@@ -27,7 +27,7 @@ Print layout settings to use for the newly created PDF:
 
 ## Runtime Requirements
 
-OS X 10.9 (Mavericks), OS X 10.10 (Yosemite), OS X 10.11 (El Capitan), or macOS 10.12 (Sierra).
+OS X 10.9 (Mavericks), OS X 10.10 (Yosemite), OS X 10.11 (El Capitan), or macOS 10.12 (Sierra), or macOS 13.x (Ventura).
 
 ## Install via [Homebrew](http://brew.sh)
 
