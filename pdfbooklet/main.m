@@ -14,15 +14,19 @@
  limitations under the License.
  */
 
-#define VERSION_STRING "1.0.0"
+#define VERSION_STRING "1.0.1"
 
 #import <Foundation/Foundation.h>
+#import <CoreGraphics/CoreGraphics.h>
+
+void error(NSString* string);
+void usage(void);
 
 void error(NSString* string) {
 	fputs([string UTF8String], stderr);
 	exit(2);
 }
-void usage() {
+void usage(void) {
 	puts("Usage: pdfbooklet <inputfile> <outputfile>");
 	puts("PDF Booklet Version " VERSION_STRING);
 	exit(1);
